@@ -1,0 +1,4 @@
+config BR2_PACKAGE_CUSTOM_VULN
+    bool "Precompiled vulnerable application"
+    help
+      Adds a precompiled vulnerable application ELF file to the target system.
